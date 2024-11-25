@@ -1,1 +1,1 @@
-export const WORDPRESS_API_URL = 'http://bgs.marksmanclub.in/graphql';
+export const WORDPRESS_API_URL = 'https://bgs.marksmanclub.in/graphql';
