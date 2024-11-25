@@ -70,7 +70,7 @@
                 <li>
                     <a
                             href="/{item.toLowerCase().replace(' ', '-')}"
-                            class="text-[#407055] align-center hover:text-[#2A4234] text-sm font-bold transition-colors duration-200"
+                            class="text-[#407055] align-center hover:text-[#2A4234] text-md font-bold transition-colors duration-200"
                             class:font-bold={$page.url.pathname === `/${item.toLowerCase().replace(' ', '-')}`}
                     >
                         {item}

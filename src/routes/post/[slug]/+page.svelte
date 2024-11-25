@@ -77,7 +77,7 @@
 
                 <div class="flex items-center justify-center space-x-4 text-sm md:text-base">
                     {#if post.author?.node}
-                        <div class="flex items-center">
+                        <div class="flex items-center text-black">
                             <a
                                     href="/author/{post.author.node.slug}"
                                     class="flex items-center hover:text-blue-600 transition-colors"
